@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ice="http://ns.adobe.com/incontextediting">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Jeu de Memoire</title>
+<style>
+header{
+  border-bottom: 3px solid #FE642E;
+  border-top:3px solid #FE642E;
+}
+h2{
+  border-bottom:5px solid #808000;
+}
+h3{
+  border-bottom:5px solid #808000;
+}
+div.J1 {
+    width: 150px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0px;
+    background-image:url('wood_texture.jpg');
+}
+div.J2 {
+    width: 150px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0px;
+    background-image:url('wood_texture.jpg');
+}
+</style>
+<script language="javascript" type="text/javascript" src="memoire.js"></script>
+</head>
+<header>
+  <div id="header" style="background-image:url('wood_texture.jpg');height: 50px;text-align: centermargin: -20px -50px; position:relative;">
+<h1 style="margin-bottom:0;margin-top:0;"ALIGN="center"><strong>JEU DE MEMOIRE</strong></h1></div>
+</header>
+<body>
+
+<div id="container" style="width:1255px">
+
+<div id="menu" style="background-color:#FFD700;height:733px;width:250px;float:left;">
+<form>
+<h2 ALIGN="center"><strong>Parametres</strong></h2>
+<h4 ALIGN="center"><strong>Choisissez les parametres du jeu:</strong></h4><br /><br />
+Taille de la grille<br />
+<input id="8X8" name="taille" type="checkbox" value="8" onchecked="Javascript:desactiveRest("taille")"/>8X8
+<input id="10X10" name="taille" type="checkbox" value="10"/>10X10
+<br /><br />
+<br />
+Nombre de joueurs<br />
+<input id="Joueur1" name="nbreJoueur"type="checkbox" value="1"/>1
+<input id="Joueur2" name="nbreJoueur"type="checkbox" value="2"/>2
+<br /><br />
+<br />
+Theme<br />
+<input id="fruit" type="checkbox" name="theme"value="f"/>Fruit
+<input id="voiture" type="checkbox" name="theme"value="v"/>Voiture
+<br /><br />
+<br />
+Joueur debutant le jeu<br />
+<input id="Jo1" type="checkbox" name="Joueur"value="Joueur 1" />Joueur 1
+<input id="Jo2" type="checkbox" name="Joueur" value="Joueur 2" />Joueur 2
+<input id="Jo3" type="checkbox" name="Joueur" value="Systeme" />Systeme
+<br /><br />
+<br />
+<div id="bouton"><p><input ALIGN="center"id="start"type="button" value="START GAME" onclick="Javascript:grille()" style="width:240px;height:50px;text-align: centermargin: -20px -50px; position:relative;top:2.5%; left:2.5%;"/></p></div>
+</form>
+<div id="instruction"><p><input Align="center" id="Instruction" type="button" value="Pour les Instructions" onclick="Javascript:openWin()" style="width:240px;height:20px;text-align: centermargin: -20px -50px; position:relative;top:2.5%; left:2.5%;"/></p></div>
+</div>
+
+<div id="content" style="background-color:#EEEEEE;height:733px;width:733px;float:left;">
+<div id="jeu">
+
+</div>
+</div>
+<div id="score" ALIGN="center"style="background-color:#FFD700;height:733px;width:272px;float:left;">
+<h3 ALIGN="center"><strong>SCORE</strong></h3><br></br></br>
+<div Class="J1"ALIGN="center"><strong><p>Joueur 1</p><p>0</p></strong></div><br>
+<div Class="J2"ALIGN="center"><strong><p>Joueur 2</p><p>0</p></strong></div>
+<div id="ChooseButton" ALIGN="center"></div>
+</div>
+<br />
+<br />
+</div>
+<div id="footer" style="background-image:url('wood_texture.jpg');clear:both;text-align:center;  border-bottom: 3px solid #FE642E;border-top:3px solid #FE642E;">Copyright 2014 © Beatriz Kanzki</div>
+
+</div>
+<script>
+
+
+</script>
+</body>
+</html>
+
+
