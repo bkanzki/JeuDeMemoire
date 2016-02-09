@@ -7,10 +7,10 @@
 #3- Select theme
 #4- Which user starts first
 
-*If you choose to play with the computer a button will appear under the score board saying "System choose card" everytime it will be the systems turn. Right now it only chooses random cards.
+*If you choose to play with the computer a button will appear under the score board saying "System choose card" everytime it will be the systems turn. Click on it chooses random cards, Don't worry the game is difficult as it is.
 
 # For each card found try to find it's identical.
-#If you find one of those cards all cards will be shuffled and you'll use your turn:
+#If you find one of those cards all cards will be shuffled and you'll loose your turn:
 
 ![My image](https://github.com/jokerbea/JeuDeMemoire/blob/master/Carte%20SpecF/melange.jpg)
 ![My image](https://github.com/jokerbea/JeuDeMemoire/blob/master/Carte%20SpecC/parking.jpg)
