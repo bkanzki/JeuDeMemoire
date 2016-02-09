@@ -32,5 +32,5 @@
 
 #Everytime you find a pair you only win one point.
 
-#----------------------  GOOD LUCK!!!  ------------------------
+#-----------------  GOOD LUCK!!!  ------------------------
 
